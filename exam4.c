@@ -22,3 +22,4 @@ else MPI_Send( numbertosend, 3, MPI_INT, 0, 10, MPI_COMM_WORLD);
 MPI_Finalize();
 return 0;
 }
+//mpicc -g -o send... ,mpirun -np 5 ./send
